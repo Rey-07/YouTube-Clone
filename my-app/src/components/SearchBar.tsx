@@ -2,7 +2,7 @@ export function SearchBar() {
   return (
     <div className="">
       <form>
-        <div className="w-96 flex text-gray-900 border border-gray-500 rounded-3xl p-1 pl-3 text-sm pr-2">
+        <div className="max-sm:hidden block w-96 flex text-gray-900 border border-gray-500 rounded-3xl p-1 pl-3 text-sm pr-2">
           <input
             type="search"
             id="default-search"
