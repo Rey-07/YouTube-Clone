@@ -7,7 +7,13 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <div>
-      <VideoCard></VideoCard>
+      <VideoCard
+        title={"How to Code ? 30 Day Coding Course"}
+        image={"photo.jpg"}
+        author={"Harkirat Singh"}
+        views={"100k"}
+        time={"2 daya ago"}
+      ></VideoCard>
     </div>
   );
 }
